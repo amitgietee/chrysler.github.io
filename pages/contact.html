@@ -74,6 +74,8 @@
             border-radius : 50%;
             z-index: 1065;
             box-shadow: 0 0 12px 0 rgb(0 0 0 / 50%);
+            position: fixed;
+            left: 1350px;
             }
             @media(max-width : 500px){
             .circle{
@@ -182,7 +184,7 @@
         <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
         <script type='text/javascript'>
             var initESW = function(gslbBaseURL) {
-                embedded_svc.settings.displayHelpButton = true; //Or false
+                embedded_svc.settings.displayHelpButton = false; //Or false
                 embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
                 
                 embedded_svc.settings.defaultMinimizedText  = 'Chat'; //(Defaults to Chat with an Expert)
