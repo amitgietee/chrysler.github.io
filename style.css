@@ -27,7 +27,7 @@ nav {
 
   min-height: 8vh;
 
-  background-color: #d7322d;
+  background-color: #000000;
 
   font-family: "Montserrat", sans-serif;
 }
@@ -73,5 +73,5 @@ nav {
 }
 
 .nav-links li a.active {
-  background-color: #000000;
+  background-color: white;
 }
