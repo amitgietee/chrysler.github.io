@@ -31,6 +31,8 @@
         bottom : 14%;
         z-index: 1065;
         box-shadow: 0 0 12px 0 rgb(0 0 0 / 50%);
+        position: fixed;
+        left: 1400px;
         }
         }
         
